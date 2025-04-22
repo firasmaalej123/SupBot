@@ -1,0 +1,14 @@
+# requirements.txt
+requests
+torch
+transformers>=4.30.0 # Ensure a recent version
+huggingface_hub
+beautifulsoup4
+python-dotenv
+Flask
+dotenv
+spacy
+streamlit
+gunicorn # WSGI server for Flask in production/Docker
+supervisor # To run multiple processes in Docker
+waitress
